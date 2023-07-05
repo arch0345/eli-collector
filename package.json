@@ -1,0 +1,22 @@
+{
+  "name": "eli-collector",
+  "version": "1.0.0",
+  "license": "ISC",
+  "repository": "github:arch0345/eli-collector",
+  "description": "Periodically collects imagery from [editor-layer-index](https://github.com/osmlab/editor-layer-index)",
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "editor-layer-index": "github:osmlab/editor-layer-index#gh-pages",
+    "json-stringify-pretty-compact": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "shelljs": "^0.8.5"
+  },
+  "scripts": {
+    "dist": "run-s imagery version",
+    "imagery": "node scripts/update_imagery.js",
+    "version": "node scripts/bump_version.js"
+  },
+  "engines": {
+    "node": ">=16.14"
+  }
+}
