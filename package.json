@@ -1,6 +1,6 @@
 {
   "name": "eli-collector",
-  "version": "1.0.0",
+  "version": "1.0.20230705",
   "license": "ISC",
   "repository": "github:arch0345/eli-collector",
   "description": "Periodically collects imagery from [editor-layer-index](https://github.com/osmlab/editor-layer-index)",
