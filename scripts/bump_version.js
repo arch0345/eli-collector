@@ -1,6 +1,6 @@
-const chalk = require('chalk');
-const fs = require('fs');
-const packageJSON = require('../package.json');
+import chalk from 'chalk';
+import fs from 'node:fs';
+import packageJSON from '../package.json' assert {type: 'json'};
 
 // YYYYMMDD
 const now = new Date();
